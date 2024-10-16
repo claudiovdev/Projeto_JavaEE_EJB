@@ -1,0 +1,3 @@
+br\com\alura\resource\AgendamentoEmailResource.class
+br\com\alura\JAXRSConfiguration.class
+br\com\alura\business\AgendamentoEmailBusiness.class
