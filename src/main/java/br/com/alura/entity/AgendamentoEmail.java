@@ -22,7 +22,7 @@ public class AgendamentoEmail {
     private String email;
 
     @Column
-    private Boolean enaviado;
+    private Boolean enviado;
 
     @Column
     @NotBlank(message = "{agendaEmail.assunto.vazio}")
@@ -64,12 +64,12 @@ public class AgendamentoEmail {
         this.email = email;
     }
 
-    public Boolean getEnaviado() {
-        return enaviado;
+    public Boolean getEnviado() {
+        return enviado;
     }
 
-    public void setEnaviado(Boolean enaviado) {
-        this.enaviado = enaviado;
+    public void setEnviado(Boolean enviado) {
+        this.enviado = enviado;
     }
 
     @Override

@@ -2,6 +2,7 @@ package br.com.alura.resource;
 
 import br.com.alura.business.AgendamentoEmailBusiness;
 import br.com.alura.entity.AgendamentoEmail;
+import br.com.alura.exception.BusinessException;
 import jakarta.ejb.EJBException;
 import jakarta.inject.Inject;
 import jakarta.validation.ConstraintViolationException;
@@ -31,18 +32,8 @@ public class AgendamentoEmailResource {
 
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
-    public Response salvarAgendamentoEmail(AgendamentoEmail agendamentoEmail){
-        try {
-            agendamentoEmailBusiness.salvarAgendamentos(agendamentoEmail);
-
-        }catch (EJBException e){
-            if (e.getCause() instanceof ConstraintViolationException){
-                logger.info(e.getMessage());
-            }else {
-                logger.severe(e.getMessage());
-            }
-            throw e;
-        }
+    public Response salvarAgendamentoEmail(@Valid AgendamentoEmail agendamentoEmail) throws BusinessException {
+        agendamentoEmailBusiness.salvarAgendamentos(agendamentoEmail);
         return Response.status(201).build();
     }
 }

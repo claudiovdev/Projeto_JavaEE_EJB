@@ -5,6 +5,7 @@ import jakarta.ejb.Stateless;
 import jakarta.persistence.EntityManager;
 
 import jakarta.persistence.PersistenceContext;
+import jakarta.persistence.Query;
 import jakarta.persistence.TypedQuery;
 
 import java.util.List;
@@ -22,5 +23,21 @@ public class AgendamentoEmailDao {
 
     public void salvarAgendamentoEmail(AgendamentoEmail agendamentoEmail){
         entityManager.persist(agendamentoEmail);
+    }
+
+    public List<AgendamentoEmail> listarAgendamentoEmailPorEmail(String email){
+        String jpql = "SELECT a from AgendamentoEmail a " +
+                "WHERE a.email = :email " +
+                "AND a.enviado = false";
+        Query query = entityManager.createQuery(jpql, AgendamentoEmail.class);
+        query.setParameter("email", email);
+        return query.getResultList();
+    }
+
+    public List<AgendamentoEmail> listarAgendamentoEmailNaoEnviados(){
+        String jpql = "SELECT a from AgendamentoEmail a " +
+                "WHERE a.enviado = false";
+        Query query = entityManager.createQuery(jpql, AgendamentoEmail.class);
+        return query.getResultList();
     }
 }

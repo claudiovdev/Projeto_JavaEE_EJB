@@ -1,4 +1,4 @@
-package br.com.alura.exception;
+package br.com.alura.exception.exceptionMapper;
 
 import br.com.alura.dto.MensagemErroDto;
 import jakarta.validation.ConstraintViolation;

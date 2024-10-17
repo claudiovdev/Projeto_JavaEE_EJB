@@ -1,7 +1,12 @@
-br\com\alura\exception\ContraintValidationMapper.class
 br\com\alura\dto\MensagemErroDto.class
 br\com\alura\business\AgendamentoEmailBusiness.class
 br\com\alura\entity\AgendamentoEmail.class
 br\com\alura\resource\AgendamentoEmailResource.class
-br\com\alura\dao\AgendamentoEmailDao.class
 br\com\alura\JAXRSConfiguration.class
+br\com\alura\exception\exceptionMapper\BusinessExceptionMapper.class
+br\com\alura\exception\exceptionMapper\ContraintValidationMapper.class
+br\com\alura\interceptor\Logger.class
+br\com\alura\interceptor\LoggerInterceptor.class
+br\com\alura\exception\BusinessException.class
+br\com\alura\timer\AgendamentoEmailTimer.class
+br\com\alura\dao\AgendamentoEmailDao.class
