@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdd6dd84-273e-4901-b94c-24fb63a0efbc" name="Changes" comment="" />
+    <list default="true" id="bdd6dd84-273e-4901-b94c-24fb63a0efbc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/business/AgendamentoEmailBusiness.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/business/AgendamentoEmailBusiness.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/resource/AgendamentoEmailResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/resource/AgendamentoEmailResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/agendamentoemail-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/agendamentoemail-0.0.1-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/agendamentoemail-0.0.1-SNAPSHOT/WEB-INF/classes/br/com/alura/business/AgendamentoEmailBusiness.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/agendamentoemail-0.0.1-SNAPSHOT/WEB-INF/classes/br/com/alura/business/AgendamentoEmailBusiness.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/agendamentoemail-0.0.1-SNAPSHOT/WEB-INF/classes/br/com/alura/resource/AgendamentoEmailResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/agendamentoemail-0.0.1-SNAPSHOT/WEB-INF/classes/br/com/alura/resource/AgendamentoEmailResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/alura/business/AgendamentoEmailBusiness.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/alura/business/AgendamentoEmailBusiness.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/alura/resource/AgendamentoEmailResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/alura/resource/AgendamentoEmailResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +29,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
@@ -28,9 +46,23 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/USER/Documents/JAVAEE/agendamentoemail/src/main/webapp/WEB-INF"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\Documents\JAVAEE\agendamentoemail\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\USER\Documents\JAVAEE\agendamentoemail\src\main\webapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\Documents\JAVAEE\agendamentoemail\src\main\java" />
+      <recent name="C:\Users\USER\Documents\JAVAEE\agendamentoemail\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\USER\Documents\JAVAEE\agendamentoemail" />
+      <recent name="C:\Users\USER\Documents\JAVAEE\agendamentoemail\src\main\resources\META-INF" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

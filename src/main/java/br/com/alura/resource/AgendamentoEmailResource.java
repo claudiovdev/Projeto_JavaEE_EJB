@@ -1,10 +1,10 @@
 package br.com.alura.resource;
 
 import br.com.alura.business.AgendamentoEmailBusiness;
+import br.com.alura.entity.AgendamentoEmail;
 import jakarta.inject.Inject;
-import jakarta.ws.rs.GET;
-import jakarta.ws.rs.Path;
-import jakarta.ws.rs.Produces;
+import jakarta.validation.Valid;
+import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
 
@@ -20,7 +20,14 @@ public class AgendamentoEmailResource {
     @Produces(MediaType.APPLICATION_JSON)
     public Response listarAgendamentoEmail(){
 
-        List<String> emails = agendamentoEmailBusiness.listarAgendamentoEmail();
+        List<AgendamentoEmail> emails = agendamentoEmailBusiness.listarAgendamentoEmail();
         return Response.ok(emails).build();
+    }
+
+    @POST
+    @Consumes(MediaType.APPLICATION_JSON)
+    public Response salvarAgendamentoEmail(AgendamentoEmail agendamentoEmail){
+        agendamentoEmailBusiness.salvarAgendamentos(agendamentoEmail);
+        return Response.status(201).build();
     }
 }
