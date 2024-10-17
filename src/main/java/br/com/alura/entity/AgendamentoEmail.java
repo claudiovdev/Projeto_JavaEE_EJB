@@ -17,19 +17,19 @@ public class AgendamentoEmail {
     private Long id;
 
     @Column
-    @NotBlank
-    @Email
+    @NotBlank(message = "{agendaEmail.mensagem.vazio}")
+    @Email(message = "{agendaEmail.email.invalido}")
     private String email;
 
     @Column
     private Boolean enaviado;
 
     @Column
-    @NotBlank
+    @NotBlank(message = "{agendaEmail.assunto.vazio}")
     private String assunto;
 
     @Column
-    @NotBlank
+    @NotBlank(message = "{agendaEmail.mensagem.vazio}")
     private String mensagem;
 
     public String getAssunto() {
